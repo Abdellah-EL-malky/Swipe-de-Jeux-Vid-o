@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(135deg, rgba(218,40,167,1) 13%, rgba(194,40,78,1) 49%);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.dislike{
+    height: 80px;
+    width: 5%;
+    border-radius: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.like{
+    height: 80px;
+    width: 5%;
+    border-radius: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.ensemble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
