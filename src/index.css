@@ -12,6 +12,10 @@ body{
     background-color: transparent;
 }
 
+.dislike:hover{
+    fill: rgb(255, 15, 15);
+}
+
 .like{
     height: 80px;
     width: 5%;
@@ -20,8 +24,25 @@ body{
     background-color: transparent;
 }
 
+.like:hover{
+    fill: rgb(22, 187, 49);
+}
+
 .ensemble{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    border-radius: 50px;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+}
+
+.stats{
+    
 }
