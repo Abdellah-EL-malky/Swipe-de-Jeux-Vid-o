@@ -2,6 +2,7 @@ body{
     background: linear-gradient(135deg, rgba(218,40,167,1) 13%, rgba(194,40,78,1) 49%);
     background-repeat: no-repeat;
     height: 62.5rem;
+    overflow-y: hidden;
 }
 
 .dislike{
@@ -60,3 +61,4 @@ body{
     border: 0.125rem solid none;
     color: #C2284E;
 }
+
